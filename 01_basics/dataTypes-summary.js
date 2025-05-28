@@ -32,3 +32,30 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello world");
 }
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myName = "minhajalam"
+let another = myName
+another = "jav"
+
+console.log(myName);
+console.log(another);
+
+let userOne = {
+    name:"user1",
+    pass:121,
+}
+
+let userTwo = userOne
+
+userTwo.pass = 321
+
+console.log(userOne.pass);
+console.log(userTwo.pass);
+
+
+
